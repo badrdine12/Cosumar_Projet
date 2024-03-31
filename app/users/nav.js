@@ -1,12 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import Home from './app/users/home'
 
-
-export default function App() {
+export default function Nav() {
   return (
     <View>
-      <Home/>
+      <Text>nav</Text>
     </View>
   )
 }
